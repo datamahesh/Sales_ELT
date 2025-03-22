@@ -1,1 +1,13 @@
-
+models:
+  - name: "Gold_Dim_Customers"
+    config:
+      schema: "GOLD"
+      materialized: 'view'
+  - name: "Gold_Dim_Products"
+    config:
+      schema: "GOLD"
+      materialized: 'view'
+  - name: "Gold_Fact_Sales"
+    config:
+      schema: "GOLD"
+      materialized: 'view'
