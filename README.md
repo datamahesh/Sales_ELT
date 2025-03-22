@@ -1,9 +1,9 @@
-Data Pipeline with AWS, Snowpipe, and Snowflake (Medallion Architecture),dbt cloud
+## Data Pipeline with AWS, Snowpipe, and Snowflake (Medallion Architecture),dbt cloud
 
-Project Objective:
+# Project Objective:
 The objective of this project is to build a scalable and efficient data pipeline that ingests raw data from CRM and ERP systems, stores it in AWS S3, and processes it through a Snowflake data warehouse using a medallion architecture (Bronze, Silver, Gold layers). The pipeline automates data ingestion, transformation, and storage to enable analytics and reporting for business insights.
 
-Source Systems: CRM and ERP systems.
+# Source Systems: CRM and ERP systems.
 Storage: AWS S3 for raw data storage.
 Ingestion: Snowpipe for automated data loading into Snowflake.
 Data Warehouse: Snowflake with a medallion architecture (Bronze, Silver, Gold layers).
