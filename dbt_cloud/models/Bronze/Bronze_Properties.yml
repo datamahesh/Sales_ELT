@@ -1,0 +1,13 @@
+sources:
+  - name: "Data_Engineering"
+    database: PROJECTS
+    schema: raw
+   
+    tables:
+      - name: CRM_CUSTOMER_INFO       
+      - name: CRM_PRD_INFO
+      - name: CRM_SALES_DETAILS
+      - name: ERP_CUST_AZ12
+      - name: ERP_LOC_A101
+      - name: ERP_PX_CAT_G1V2
+      
