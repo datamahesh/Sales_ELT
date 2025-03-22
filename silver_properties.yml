@@ -1,9 +1,0 @@
-models:
-  - name: "silver_crm_cust_info"
-    config:
-      schema: "SILVER"
-      materialized: 'table'
-  - name: "silver_prod_info"
-    config:
-      schema: "SILVER"
-      materialized: 'table'
