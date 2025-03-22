@@ -7,9 +7,10 @@ The objective of this project is to build a scalable and efficient data pipeline
 CRM and ERP Data.
 
 ## Storage: AWS S3 for raw data storage.
-### Ingestion: Snowpipe for automated data loading into Snowflake.
-### Data Warehouse: Snowflake with a medallion architecture (Bronze, Silver, Gold layers).
-### Transformation: Use dbt (data build tool) for transforming data between layers.
+
+Ingestion: Snowpipe for automated data loading into Snowflake.
+Data Warehouse: Snowflake with a medallion architecture (Bronze, Silver, Gold layers).
+Transformation: Use dbt (data build tool) for transforming data between layers.
 
 ## Architecture Overview
 The architecture diagram illustrates the flow of data through the pipeline:
