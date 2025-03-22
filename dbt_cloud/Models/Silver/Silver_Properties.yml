@@ -1,1 +1,25 @@
-
+models:
+  - name: "Silver_CRM_CUST_INFO"
+    config:
+      schema: "SILVER"
+      materialized: 'table'
+  - name: "Silver_CRM_PRD_INFO"
+    config:
+      schema: "SILVER"
+      materialized: 'table'
+  - name: "Silver_CRM_SALES_DETAILS"
+    config:
+      schema: "SILVER"
+      materialized: 'table'
+  - name: "Silver_ERP_CUST_AZ12"
+    config:
+      schema: "SILVER"
+      materialized: 'table'
+  - name: "Silver_ERP_LOC_A101"
+    config:
+      schema: "SILVER"
+      materialized: 'table'
+  - name: "Silver_ERP_PX_CAT_G1V2"
+    config:
+      schema: "SILVER"
+      materialized: 'table'
