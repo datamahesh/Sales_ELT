@@ -89,12 +89,19 @@ Set up alerts for pipeline failures (e.g., using AWS CloudWatch or Snowflake not
 
 ### data-pipeline-project/
 ├── dbt_project.yml         # dbt project configuration
+
 ├── models/                 # dbt models for Silver and Gold layers
+
 │   ├── bronze/             # Bronze layer schemas (optional)
+
 │   ├── silver/             # Silver layer transformations
+
 │   └── gold/               # Gold layer aggregations
+
 ├── scripts/                # Scripts for Snowpipe setup and S3 uploads
+
 ├── profiles.yml            # dbt connection profile for Snowflake
+
 └── README.md               # This file
 
 ## Final Conclusion
